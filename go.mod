@@ -37,4 +37,6 @@ replace (
 	github.com/EDDYCJY/go-gin-example/pkg/setting => /root/gin-blog/pkg/setting
 	github.com/EDDYCJY/go-gin-example/routers => /root/gin-blog/routers
 	github.com/EDDYCJY/go-gin-example/routers/api/vi => /root/gin-blog/routers/api/v1
+	github.com/EDDYCJY/go-gin-example/pkg/e => /root/gin-blog/pkg/e
+	github.com/EDDYCJY/go-gin-example/pkg/util => /root/gin-blog/pkg/util
 )
