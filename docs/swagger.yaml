@@ -1,0 +1,48 @@
+definitions:
+  v1.Response:
+    properties:
+      code:
+        type: string
+      msg:
+        type: string
+    type: object
+host: 39.105.202.97:8000
+info:
+  contact:
+    name: API Support
+  description: blog-demo
+  license: {}
+  title: itachi-blog
+  version: "1.0"
+paths:
+  /api/v1/tags/{id}:
+    put:
+      parameters:
+      - description: ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: ID
+        in: query
+        name: name
+        required: true
+        type: string
+      - description: State
+        in: query
+        name: state
+        type: integer
+      - description: ModifiedBy
+        in: query
+        name: modified_by
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/v1.Response'
+      summary: 修改文章标签
+swagger: "2.0"

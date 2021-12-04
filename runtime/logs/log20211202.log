@@ -1,0 +1,5 @@
+[INFO][main.go:22]2021/12/02 22:26:40 Actual pid is %d 40876
+[INFO][main.go:22]2021/12/02 22:27:25 Actual pid is %d 41013
+[INFO][main.go:27]2021/12/02 22:27:25 Server err: %v accept tcp [::]:8000: use of closed network connection
+[INFO][main.go:22]2021/12/02 22:30:43 Actual pid is %d 41160
+[INFO][main.go:27]2021/12/02 22:30:43 Server err: %v accept tcp [::]:8000: use of closed network connection

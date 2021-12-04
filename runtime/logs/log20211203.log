@@ -1,0 +1,14 @@
+[INFO][main.go:27]2021/12/03 10:10:05 Server err: net.Listen error: listen tcp :8000: bind: address already in use
+[INFO][main.go:22]2021/12/03 10:15:42 Actual pid is 44860
+[DEBUG][main.go:23]2021/12/03 10:15:42 Actual pid is %d 44860
+[INFO][main.go:22]2021/12/03 10:35:57 Actual pid is 46075
+[INFO][main.go:28]2021/12/03 10:35:57 Server err: accept tcp [::]:8000: use of closed network connection
+[DEBUG][main.go:23]2021/12/03 10:35:57 Actual pid is %d 46075
+[INFO][main.go:22]2021/12/03 10:38:06 Actual pid is 46694
+[DEBUG][main.go:23]2021/12/03 10:38:06 Actual pid is 46694
+[INFO][main.go:22]2021/12/03 10:52:01 Actual pid is 47428
+[DEBUG][main.go:23]2021/12/03 10:52:01 Actual pid is 47428
+[INFO][main.go:28]2021/12/03 10:52:01 Server err: accept tcp [::]:8000: use of closed network connection
+[DEBUG][main.go:22]2021/12/03 11:45:02 Actual pid is 53440
+[INFO][article.go:75]2021/12/03 11:45:06 get success
+[INFO][main.go:27]2021/12/03 11:46:41 Server err: accept tcp [::]:8000: use of closed network connection
